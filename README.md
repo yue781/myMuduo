@@ -38,12 +38,12 @@ sudo apt-get install -y wget cmake build-essential unzip git
 下载项目
 
 ```shell
-git clone https://github.com/youngyangyang04/muduo-core.git
+git clone https://github.com/yue781/myMuduo.git
 ```
 
 进入到muduo-core文件
 ```shell
-cd muduo-core
+cd myMuduo
 ```
 
 创建build文件夹，并且进入build文件:
@@ -105,10 +105,8 @@ cd example  &&  ./testserver
 - 增加更多的测试用例,如HTTP、RPC。
 - 可以考虑引入协程库等模块
 
-## 致谢
+## 参考
 
-- [作者-Shangyizhou]https://github.com/Shangyizhou/A-Tiny-Network-Library/tree/main
-- [作者-S1mpleBug]https://github.com/S1mpleBug/muduo_cpp11?tab=readme-ov-file
 - [作者-chenshuo]https://github.com/chenshuo/muduo
 - 《Linux高性能服务器编程》
 - 《Linux多线程服务端编程：使用muduo C++网络库》
